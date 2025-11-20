@@ -37,15 +37,10 @@ Ensure responses use proper DTOs and map domain entities to DTOs in the applicat
 ## Packaging / Submission
 - Create an archive of the project excluding `bin` and `obj` folders. From the project root you can run:
 
-```bash
-zip -r ProjectArchive.zip . -x "*/bin/*" "*/obj/*"
-```
-- Include the generated migration files and ensure the database schema can be created from them.
-
 ## Deliverables
 - Refactored codebase with clear project structure (API, Application, Domain, Infrastructure).
 - Implemented endpoints and DTOs.
 - Unit tests for FluentValidation validators.
-- (Optional) Unit tests for MediatR handlers.
-- `TASKS.md` with these instructions included in the repository.
+## (Bonus) Unit tests for MediatR handlers.
+
 
