@@ -35,7 +35,7 @@ Ensure responses use proper DTOs and map domain entities to DTOs in the applicat
 - Ensure seed data (at least 5 papers) is added either in the `DbContext` seed configuration or in a migration/initializer.
 
 ## Packaging / Submission
-- Create an archive of the project excluding `bin` and `obj` folders. From the project root you can run:
+- Create an archive of the project excluding `bin` and `obj` folders.
 
 ## Deliverables
 - Refactored codebase with clear project structure (API, Application, Domain, Infrastructure).
