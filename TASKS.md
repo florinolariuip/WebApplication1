@@ -3,7 +3,6 @@
 ## Review and Refactor
 - Review the provided codebase.
 - Refactor following best practices learned: clean architecture, meaningful naming, separation of concerns, single responsibility, and dependency injection.
-- Move business logic out of `Program.cs` into appropriate layers (API, Application/Services, Domain, Infrastructure).
 
 ## Add New Endpoints
 Implement the following Minimal API endpoints (exposed from `Program.cs`):
